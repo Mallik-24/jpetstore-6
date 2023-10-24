@@ -19,7 +19,7 @@
       community.docker.docker_login:
         registry_url: https://index.docker.io/v1/
         username: mallik2001
-        password: dckr_pat_PpqZkpVbetcjrv1jlkKLGD2QXrg
+        password: dckr_pat_zDQVP7lQTGwMN4swVAHqld6Yx1E
 
     - name: Push image
       command: docker push mallik2001/CICD:latest
